@@ -1,0 +1,22 @@
+Class ThreadGroup
+java.lang.ThreadGroup class 
+
+ThreadGroup : it represents the set of Threads. these, Thread groups also include the other Thread group as well as diff Threads.
+            its like a tree like structure, where each ThreadGroup initially has a parent ThreadGroup...
+
+
+methods():
+                Thread                                          ThreadGroup
+        ThreadGroup -> getThreadGroup()                 ThreadGroup -> getParent()
+                                                                    -> ThreadGroup(String name) => main
+                                                                    -> Thread(ThreadGroup group, Runnable target, String name)
+                                                        ThreadGroup -> ThreadGroup(ThreadGroup parent, String name)
+                                                               void -> list() 
+Exception: 
+        NullPointerException                            IllegalThreadStateException
+
+
+
+        1. System -> ThreadGroup object
+        2. main   -> ThreadGroup object
+        3. main   -> default Thread

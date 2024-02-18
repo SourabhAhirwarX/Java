@@ -1,0 +1,93 @@
+step-4 #######
+
+Coaching Class App:
+
+classes:
+    Find all possible operations for each entity and declare a method for each...
+    methods which basically access, process, manipulate, analyze the data of it's own class.
+
+    Student
+        name
+        email
+        password
+        dob
+        gender
+        college
+        degree
+        branch
+        semester
+        marks
+        fees
+        contact
+        
+        signin()
+        signup()
+        viewProfile()
+        updateProfile()
+        logout()
+        deleteAccount()
+        submitFees()
+        addNewStudent()
+        issueCourseCertificate()
+        listAllStudents()
+        searchStudent()
+
+
+    Teacher
+        name
+        email
+        password
+        dob
+        gender
+        college
+        designation
+        experience
+        qualification
+        salary
+        experties
+
+        signin()
+        signup()
+        viewProfile()
+        updateProfile()
+        logout()
+        deleteAccount()
+        checkSalary()
+        addNewTeacher()
+        changeDestination()
+        updateSalary()
+        listAllTeachers()
+        searchTeacher()
+
+
+    ClassRoom
+        Building
+        floor
+        roomNo
+        capacity
+        smartClass
+        board(White, Black, glass)
+        
+        addNewRoom()
+        updateRoom()
+        setSmartClass()
+        setBoardType()
+        changeRoomNumber()
+        listAllRooms()
+
+
+    Schedule
+        Teacher
+        Class
+        section
+        date
+        time
+        subject
+        
+        addNewSchedule()
+        listAllSchedules()
+        searchSchedules()
+        changeSchedule()
+        cancelSchedule()
+    
+    ....

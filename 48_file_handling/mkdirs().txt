@@ -1,0 +1,3 @@
+to create multiple folders in the directory
+
+            -> mkdirs()

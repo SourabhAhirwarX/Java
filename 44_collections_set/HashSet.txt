@@ -1,0 +1,5 @@
+java.util.HashSet<E>
+
+class HashSet<E>
+    1. A Hash based collection class thus provides an efficient access.
+    2. Neither Ordered nor Sorted.

@@ -1,0 +1,10 @@
+## used to create the new folder. ##
+        boolean -> createNewFolder()
+
+true:- 
+        1. successfully created the folder.
+false:- 
+        1. when same file name exist.
+        2. when we try to create the folder in the write protected folder.
+
+=> throws IOException (checked Exception)

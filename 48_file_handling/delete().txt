@@ -1,0 +1,2 @@
+for deleting a file or folder 
+    boolean -> delete()

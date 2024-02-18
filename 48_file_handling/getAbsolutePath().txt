@@ -1,0 +1,3 @@
+convert the relative path into the absolute path
+    
+    String -> getAbsolutePath()

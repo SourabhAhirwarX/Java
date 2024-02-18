@@ -1,0 +1,3 @@
+used to create new folder inside the current directory
+
+        boolean -> mkdir()

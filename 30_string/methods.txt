@@ -1,0 +1,48 @@
+String -> immutable, final class
+    Exception:-
+        StringIndexOutOfBoundsException
+        NullPointerException
+        ArrayStoreException
+        ArrayIndexOutOfBoundsException
+        NegativeArraySizeException
+
+        -1(indexOf(char c)) 
+                -> when given char is not present in the string
+
+String s = "    mohan kumar     ";
+Object
+   boolean - equals(Object o)
+   for our custom objects type we have to override this equals method
+
+String 
+    boolean - equals(String s)
+
+replace('c', 'c1');
+replace("str", "str2");
+trim();
+toUpperCase();
+toLowerCase();
+equalsIgnoreCase();
+toCharArray();
+String.valueOf(obj);
+String.valueOf(arr);
+split("regex");
+matches("str");
+subString(5);
+subString(5, 8);
+format("str.......%s age: %d average: %f", "mohan", 24, 2.3f);
+length();
+isEmpty();
+isBlank();
+concat(str);
+equals(String s);
+charAt(5);
+indexOf('a');
+indexOf(97);
+indexOf("mohan");
+indexOf("mohan", 8);
+endsWith("str");
+startsWith("str");
+lastIndexOf('a');
+lastIndexOf('a', 8);
+join(del, "str");

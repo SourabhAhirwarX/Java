@@ -1,0 +1,4 @@
+as we use exists() method for checking whether file/folder exist or not,
+in the same way we use isDirectory() method to check whether it is a folder or a file
+
+    boolean ->  isDirectory()

@@ -1,0 +1,14 @@
+Below class and interface declared the methods but not defined them.
+Abstraction is 'hiding the complexity'.
+Here hiding the complexity means declaring a method but not defining it.
+Talk about the functionalities provided by class but not talking about the implementation logic.
+What are the functionalities not how they function.
+
+abstract class Car {
+    abstract void brake();
+}
+
+interface Jumpable {
+    void jumpingFactor();
+    void jumpStyle();
+}

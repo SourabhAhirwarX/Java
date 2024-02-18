@@ -1,0 +1,15 @@
+Step-1 ###########
+
+School App:
+
+classes:
+    recognize all the entities for which we want to develop an application.
+    Identify all the Classes needed to handle the entire app data, (Class Modeling)
+    (Person, Place, Thing and Concept) 
+
+
+    Student 
+    Teacher
+    ClassRoom
+    Schedule
+    ...

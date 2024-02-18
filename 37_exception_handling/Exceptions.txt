@@ -1,0 +1,23 @@
+Exception:
+Unexpected situation disturbing the normal program execution, 
+cause abnormal program termination is called Exception.
+
+Exception Handling:
+whatever it takes to come out from such problematic situation and resume the normal execution of the program,
+is Exception Handling.
+
+Throwable:
+Throwable is the top most of all the Error and Exception classes.
+Java provides a framework of Error and Exception classes where each class represents a unique problem,
+which can cause an abnormal program termination.
+
+Exception are recoverable:
+Exception caused by our program is recoverable.
+All the child classes of Exception class represents the problem caused by our program and such problems are recoverable.
+you can came out of these problems(i.e is by using try, catch, finally) and continue the normal flow execution.
+for example, if an invalid input provided by the user than we can request him to re-enter the correct input.
+
+Error are non-recoverable:
+We can't recover from such problems(Errors).
+Error sub class represents the problem caused by the underlying environment which is responsible for executing our program and non-recoverable.
+for example, if the memory exceeds from its limit(i.e full) your program can't do anything, it will crash.

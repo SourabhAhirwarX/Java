@@ -1,0 +1,21 @@
+Annotation:
+
+1. Standard Annotation
+    a. General Purpose Annotation
+        Package: java.lang
+
+        @Override
+        @SuppressWarnings
+        @Deprecated
+        @FunctionalInterface
+
+    b. Meta Annotation
+        Package: java.lang.annotation
+        
+        @Inherited
+        @Documented
+        @Target
+        @Retention
+
+2. Custom Annotation
+    (User Defined)

@@ -1,0 +1,26 @@
+###    File Reader    ###
+
+java.io.Reader
+		methods:
+			int  -  read()			<->  IOException
+			int  -  read(char[]) 
+	        void -  close()
+
+
+direct known sub classes of Reader class
+1. InputStreamReader
+	i.  FileReader
+		constructor:
+			FileReader(File file)
+			FileReader(String fileName)    <->  FileNotFoundException	
+			
+2. BufferedReader
+		constructor:
+			BufferedReader(Reader in)			<->  IOException
+			BufferedReader(Reader in, int size)
+		methods:
+			String  -  readLine()		<->  IOException
+		
+
+// Arrays
+	void -  fill(char[] arr, char c)

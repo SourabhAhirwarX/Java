@@ -1,0 +1,4 @@
+@Deprecated
+enum A {
+    
+}

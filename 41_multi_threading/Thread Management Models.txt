@@ -1,0 +1,13 @@
+Thread Management Model:
+    1. Green Thread Model:
+            Solarish-> Sun Solarish Micro Systems
+
+
+    2. Native OS Thread Model:
+            Windows-> most using model
+
+
+
+Q. Difference between DeadLock and Starvation?
+Ans:- DeadLock: DeadLock is a never Ending process.
+      Starvation: it will execute any how, for any time interval, it will definitely executed.

@@ -1,0 +1,39 @@
+class Writer
+    - java.io.
+    - IOException
+
+subclasses:
+    1. OutputStreamWriter
+            - FileWriter { empty no method summary, it has constructors }
+                    Constructors:
+                        - FileWriter(File file)
+                        - FileWriter(String fileName)
+                        - FileWriter(File, append)
+    2. BufferedWriter
+                    Constructors:
+                        - BufferedWriter(Writer)
+                        - BufferedWriter(Writer, int)
+                    Methods:
+                        void -> newLine()
+    3. PrintWriter
+                    Constructors:
+                        - PrintWriter(File file)
+                                throws FileNotFoundException
+                        - PrintWriter(String fileName)
+                    Methods:
+                        void -> append(...)
+                        void -> format(...)
+                        void -> print(...)
+                        void -> printf(...)
+                        void -> println(...)
+                        void -> write(...)
+
+
+Method summary:
+           Writer -> append(char c)
+    abstract void -> close()
+    abstract void -> flush()            
+             void -> write(char c)
+             void -> write(char[] cbuf)
+             void -> write(String str)
+                    { c - int specifying a character to be written }

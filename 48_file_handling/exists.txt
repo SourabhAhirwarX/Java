@@ -1,0 +1,3 @@
+## check whether the folder or the file exists or not ##
+
+        boolean -> exists()

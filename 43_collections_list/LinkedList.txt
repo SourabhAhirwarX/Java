@@ -1,0 +1,21 @@
+java.util.LinkedList<E>;
+
+class LinkedList<E>
+   1. Best choice for frequent insertion and deletion.
+   2. not a good choice for frequent iteration(traversal).
+
+                                                            class LinkedList
+                                                          /         \         \  
+                                                       /             \           \
+                                                    /                 \             \
+                                                 /                     \               \
+                                              /                         \                 \
+                                        interface List              interface Queue       class Stack<E>
+                               boolean -> add​(E e)             boolean ->  offer​(E e)       E  ->  push​(E item)
+                                    E  -> get​(int index)           E   ->  peek()           E  ->  pop()
+                                    E  -> remove​(int index)        E   ->  poll()           E  ->  peek()
+
+
+Conclution:- Only use methods of any One at a time.
+            i.e. for example if we use stack class
+            then,  we must have to use push() and pop() methods only, not the other methods like poll etc...

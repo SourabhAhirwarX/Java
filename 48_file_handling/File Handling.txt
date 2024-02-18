@@ -1,0 +1,35 @@
+###   File  Handling   ###
+
+------------------------------------------------------------------------------------------------------------
+An abstract representation of file and directory pathNames
+
+File Class: (used to handle the path)
+    1.file path or the path of folder.
+    2.the path will be of an existing or as well as non existing files and folders.
+    3.path can be relative or absolute.
+
+absolute: the whole path from the root.
+relative: the current file location. 
+------------------------------------------------------------------------------------------------------------
+Constructor:
+	File(String name)
+	File(file f)
+	File(String parent, String child)
+	File(file f1, file f2)
+
+Methods:
+	boolean  ->  exists()
+	boolean  ->  delete()
+	boolean  ->  mkdir()
+	boolean  ->  mkdirs()
+	String   ->  getAbsolutePath()
+	File     ->  getAbsoluteFile()
+	boolean	 ->  createNewFile()	     // IOException
+	boolean	 ->  createNewFolder()    // IOException 
+	File     ->  renameTo(File f)
+	String   ->  getParent()
+	boolean	 ->  isDirectory()
+	boolean	 ->  isFile()
+	boolean  ->  isHidden()
+	boolean  ->  isFalse()
+	String[] ->  list()

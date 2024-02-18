@@ -1,0 +1,55 @@
+Step-3 ########
+
+Coaching Class App:
+
+Classes:
+    Remove irrelevant properties...
+
+    Student
+        name
+        email
+        password
+        dob
+        gender
+        college
+        degree
+        branch
+        semester
+        marks
+        fees
+        contact
+        ...
+
+    Teacher
+        name
+        email
+        password
+        dob
+        gender
+        college
+        designation
+        experience
+        qualification
+        salary
+        experties
+        ...
+
+    ClassRoom
+        Building
+        floor
+        roomNo
+        capacity
+        smartClass
+        board(White, Black, glass)
+        ...
+
+    Schedule
+        Teacher
+        Class
+        section
+        date
+        time
+        subject
+        ...
+    
+    ....

@@ -1,0 +1,107 @@
+Abstraction: Hiding the complexity
+
+1. Class Modeling
+    Identify the entities for which you want to handle the data;
+    Create a class for each entities...
+
+    Ex: School Application
+
+    class Student {
+
+    }
+
+    class Teacher {
+
+    }
+
+    class ClassRoom {
+
+    }
+
+    class Schedule {
+
+    }
+
+2. Identify the data which describes an entity...
+    Create variables for each data you recognize for an entity
+
+    Student
+        name
+        date of birth
+        contact
+        gender
+        nationality
+        college
+        degree 
+        branch 
+        semester
+        address
+        contact
+        whatsapp
+        father's name
+        height
+        weight
+        colour complexion
+        .
+        .
+        .
+
+3. Remove the data which is not relevent 
+    Student 
+        name
+        date of birth
+        email
+        password
+        contact 
+        gender
+        nationality
+        college
+        degree
+        branch
+        semester
+        address
+        contact
+        whatsapp
+        father's name
+        //height
+        //weight
+        //colour complexion
+
+4. recognize the functionalities we can perform on an entity's data...
+    and create functions(method) for each functionality
+
+    Student 
+        data:
+            name
+            date of birth
+            email
+            password
+            contact
+            gender
+             
+            nationality
+            college
+            degree
+            branch
+            semester
+            address
+            contact
+            whatsapp
+            father's name
+            //height
+            //weight
+            //colour complexion
+            .
+            .
+            .
+        functionality(method):
+            signup()
+            signin()
+            profileView()
+            profileUpdate()
+            logout()
+            .
+            .
+            .
+
+5. create more atomic classes 

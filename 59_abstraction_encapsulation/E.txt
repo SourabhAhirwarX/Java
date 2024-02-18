@@ -1,0 +1,57 @@
+step-5 ###########
+
+Bank Application:
+
+classes:
+    Create more atomic classes. Class which can't be divided any further.
+    Break down in more cohesive classes if requires.
+    Design highly cohesive classes or tight cohesion means, each class has only one responsibility, not overburdened class.
+    Best example is File, FileWriter and FileReader. Making single class File with file-handling,
+    file-writing and file-reading capabilty is not a good practice.
+
+    Before:
+        Account:
+            accountNumber
+            accountType
+            accountBalance
+            name
+            email
+            password
+            contact
+            address
+            occupation
+            earning
+            nationality
+            religion
+            cast 
+            dob
+            gender
+            fathesName
+            aadharCard
+            ...
+
+    After:
+        Account:
+            accountId
+            accountNumber
+            accountType
+            accountBalance
+            accountHolder
+
+    AccountHolder:
+        accountHolderId
+        name
+        email
+        password
+        contact
+        address
+        occupation
+        earning
+        nationality
+        religion
+        cast
+        dob
+        gender
+        fathersName
+        aadharCard
+        ...

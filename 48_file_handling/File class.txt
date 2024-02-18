@@ -1,0 +1,32 @@
+An abstract representation of file and directory pathNames
+
+File Class:(used to handle the path)
+    1.file path or the path of folder(directory).
+    2.The path can be of an existing or as well as non existing files and folders.
+    3.path can be relative or absolute.
+
+absolute: the whole path from the root.
+relative: the current file location.  
+
+
+###   File Handling    ###
+
+constructor:
+	File(String path)
+	File(String parent, String child)
+
+methods:
+	boolean   -   obj.createNewFolder()   => IOException
+	boolean   -   obj.exists()
+	boolean   -   obj.mkdir()
+	boolean   -   obj.mkdirs()
+	boolean   -   obj.isDirectory()
+	boolean   -   obj.isFile()
+	String    -   obj.getAbsolutePath()
+	File      -   obj.getParent()
+	boolean   -   obj.isHidden()
+	boolean   -   obj.renameTo(File obj)
+	String[]  -   obj.list()
+	boolean   -   obj.delete()
+
+#####################

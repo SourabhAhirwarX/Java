@@ -1,0 +1,19 @@
+class java.lang.ThreadGroup
+
+ThreadGroup:
+    set of Threads. it creates tree like structure. where each ThreadGroup has its parent initially.
+    we can group/combine/binds the Thread in a single object. so, by creating group we can access, reuse them in single method call.
+      
+    Constructuor:
+            ThreadGroup -> ThreadGroup(String Name)
+            ThreadGroup -> ThreadGroup(ThreadGroup parent, String Name)
+
+    method():
+            int         -> activeCount()
+            int         -> getMaxPriority()
+            void        -> setMaxPriority(int pri)
+            String      -> getName()
+            ThreadGroup -> getParent()
+            boolean     -> isDaemon()
+            void        -> setDaemon(boolean Daemon)
+            void        -> list()

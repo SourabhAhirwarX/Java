@@ -1,0 +1,4 @@
+@Deprecated
+interface A {
+    
+}

@@ -1,0 +1,15 @@
+java.util.Vector<E>;
+
+class Vector<E>
+      1. Vector is a thread safe countor part of ArrayList, key methods of the Vector class are synchronized.
+      2. Vector grows as of 100%.
+      3. rest of the properties are same as the ArrayList.
+
+
+                                            Vector<E>
+                                     boolean   ->  add​(E e)
+                                     boolean   ->  contains​(Object o)
+                                     boolean   ->  remove​(Object o)
+                                     boolean   ->  isEmpty()
+                                   Iterator<E> ->  iterator()
+                                       int     ->  size()

@@ -1,0 +1,36 @@
+java.util.Set<E>
+
+interface Set<E>
+      1. Duplicate records not allowded.
+      2. Doesn't support indexing of records.
+                                                                interface Collection
+                                                                        /                                                               
+                                                                       /                                                                        
+                                                                      /                                                                            
+                                                                     /                                                                                
+                                                                    /                                                                                      
+                                                               interface Set                                                              
+                                                              /             \                                                                                 
+                                                             /               \                                                                                             
+                                                            /                 \                                                                         
+                                                           /                   \                                                                                         
+                                                          /                     \                                                                             
+                                                    class HashSet         interface SortedSet      
+                                                         |                          |
+                                                         |                          |                   
+                                                         |                          |                                                       
+                                                         |                          |
+                                                class LinkedHashSet(O)    interface NavigableSet
+                                                                                    |                                                      
+                                                                                    |                                                               
+                                                                                    |                                                                   
+                                                                                    |                                                                     
+                                                                              class TreeSet(OS)          
+
+
+
+java.util.HashSet<E>
+
+class HashSet<E>
+      1. A Hash based collection class, thus provides an efficient access.
+      2. Neither Ordered nor Sorted.

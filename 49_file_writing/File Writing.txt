@@ -1,0 +1,82 @@
+###  File Writer  ###
+
+Writer
+	void  -  write(int i)
+	void  -  write(String s)
+	void  -  write(char[] arr)
+	void  -  flush()	<-> IOException
+	void  -  close()	<-> IOException
+
+Direct known Sub classes of Writer class
+1.  OutputStreamWriter	
+                  i. FileWriter <-- IOException -->
+	 Constructor:  
+	            FileWriter(File f)
+	                   : this will not create the file, if it doesn't exist, throws IOException.
+	            FileWriter(String fileName)
+	                   : this will automatically creates the file if it doesn't exist.
+	            FileWriter(String fileName, boolean append)
+
+2.  BufferedWriter (efficient writing)
+	Constructor:  
+	            BufferedWriter(Writer out)
+	Methods:
+	             void  -  newLine()
+
+3.  PrintWriter (fast writing, efficient writing, most suffasticated)
+	Constructor:  
+	            PrintWriter(File f)
+	            PrintWriter(String fileName)	<-> FileNotFoundException
+	            PrintWriter(Writer out)
+	Methods:
+	             PrintWriter  -   append(char c)
+		                      -   print(String str)
+		                      -   println(boolean b)
+		                      -   println(double d)
+		                      -   println(String str)
+	            	    void  -   flush()
+	                    void  -   close()
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+class Writer
+    - java.io.
+    - IOException
+
+subclasses:
+    1. OutputStreamWriter
+            - FileWriter { empty no method summary, it has constructors only }
+                    Constructors:
+                        - FileWriter(File)
+                        - FileWriter(String)
+                        - FileWriter(File, append)
+    2. BufferedWriter
+                    Constructors:
+                        - BufferedWriter(Writer)
+                        - BufferedWriter(Writer, int)
+                    Methods:
+                        void -> newLine()
+    3. PrintWriter
+                    Constructors:
+                        - PrintWriter(File)
+                                throws FileNotFoundException
+                        - PrintWriter(String fileName)
+                        - PrintWriter(Writer writer)
+                    Methods:
+                        void -> append(...)
+                        void -> format(...)
+                        void -> print(...)
+                        void -> printf(...)
+                        void -> println(...)
+                        void -> write(...)
+
+
+Method summary:
+           Writer -> append(char c)
+    abstract void -> close()
+    abstract void -> flush()            
+             void -> write(char c)
+             void -> write(char[] cbuf)
+             void -> write(String str)
+                    { c - int specifying a character to be written }
+-----------------------------------------------------------------------------------------------------------------------------------

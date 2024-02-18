@@ -1,0 +1,55 @@
+interface Map :
+    1. map holds records in the key value pair.
+    2. key cannot be duplicated but value can.
+
+                                    interface Map
+                                   /      |      \
+                                 /        |        \
+                               /          |          \
+                             /            |            \
+                           /              |              \
+                         /                |                \
+                       /                  |                  \
+                     /                    |                    \
+                   /                      |                      \
+                 /                        |                        \
+         class Hashtable            class HashMap            interface SortedMap
+                                          |                           |
+                                          |                           |
+                                          |                           |
+                                          |                           |
+                                 class LinkedHashMap(O)     interface NavigableMap
+                                                                      |
+                                                                      |
+                                                                      |
+                                                                      |
+                                                               class TreeMap(OS)
+                                                                      
+                      Map <K,V>
+                 value  -|-  put(Key k, Value v)
+                 value  -|-  get(Object key)
+                 value  -|-  remove(Object key)
+                Set<K>  -|-  keySet()
+               boolean  -|-  containsKey(Object k)  
+               boolean  -|-  containValue(Object V)
+
+Note:- enhanced for loop(for each) is not applicable on map because they doesn't implement Iterable interface.
+
+class HashMap :
+    1. hash base collection thus, provides an efficient access.
+    2. Best choice for frequent insertion and deletion.
+    3. not a good choice for frequent iteration(traversal).
+    4. null is alloweded as a key as a value.
+    5. non thread safe countor part of Hashtable.
+    6. neither ordered not sorted.
+
+class LinkedHashMap :
+    1. ordered countor part of the class HashMap.
+    2. rest all properties were same.
+
+class Hashtable :
+    1. null is only alloweded for the values, keys cannot be null.
+    2. thread safe countor part of HashMap.
+
+class TreeMap :
+    1. ordered and sorted both.

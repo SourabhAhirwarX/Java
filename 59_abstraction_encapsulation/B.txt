@@ -1,0 +1,77 @@
+Step-2 #########
+
+Schedule App:
+
+Classes:
+    Find all the properties which help to describe the entities(class)
+
+
+    Student 
+        name
+        email
+        password
+        dob
+        gender
+        college
+        degree
+        branch
+        semester
+        marks
+        fees
+        colorComlexion
+        weight
+        height
+        Religion
+        cast
+        nationality
+        fathersName
+        mothersName
+        ...
+
+    Teacher
+        name
+        email
+        password
+        dob
+        gender
+        college
+        designation
+        experience
+        qualification
+        salary
+        experties
+        colorComlexion
+        weight
+        height
+        Religion
+        cast
+        nationality
+        fathersName
+        mothersName
+        ...
+
+    ClassRoom
+        Building
+        floor
+        roomNo
+        capacity
+        smartClass
+        windows
+        doors
+        color
+        height
+        width
+        length
+        board
+        ...
+
+    Schedule
+        Teacher
+        Class
+        section
+        date
+        time
+        subject
+        ...
+    
+    ....
