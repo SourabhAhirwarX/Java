@@ -1,7 +1,5 @@
-/* 
-    Rule: 3
-        first character of an identifier can't be a numeric character
-*/
+// Rule 2:
+// first character of an identifier can't be a numeric character
 
 class 23a {
     void 0000() {

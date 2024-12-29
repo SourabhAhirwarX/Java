@@ -1,9 +1,9 @@
-// Student IS-A pen
+// Student Is-A pen
 
-class Student extends Pen {       
+class Student extends Pen {        // error: cannot find symbol
     public static void main(String[] args) {
-        Student p = new Student();
-        p.write(); 
+        Student p = new Student ();
+        p.write();         // error: cannot find symbol
     }
 }
 
@@ -11,6 +11,5 @@ class Pen {
     void write() {
         /////
         /////
-        System.out.println("write something that i can do");
     }
 }

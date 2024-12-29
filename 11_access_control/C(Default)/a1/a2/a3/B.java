@@ -5,7 +5,7 @@ class B {
         A x = new A();
         x.pro();
         // x.info();   // error : info() has private access in A
-        x.info1();     // accessing public_private member
-        x.self();      // accessing default member
+        x.info1();     // accessing private member
+        x.self();      // accessing Default member
     }
 }

@@ -7,5 +7,3 @@ class A {
         System.out.println(a.x);
     }
 }
-
-// here, by creating the object and using it for accessing the instance level variable.

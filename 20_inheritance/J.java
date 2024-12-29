@@ -19,9 +19,9 @@ class Y {
         // E x = new E();
         Object x = new E();
 
-        System.out.println(x instanceof Object);    // true
-        System.out.println(x instanceof X);         // true
-        System.out.println(x instanceof C);         
+        System.out.println(x instanceof Object);
+        System.out.println(x instanceof X);
+        System.out.println(x instanceof C);
         System.out.println(x instanceof D);
         System.out.println(x instanceof A);
         System.out.println(x instanceof F);

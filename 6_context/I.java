@@ -8,6 +8,6 @@ class A {
     }
 
     void pro() {
-        System.out.println(x);      // instance level variable are directly accessible in the instance context 
+        System.out.println(x);
     }
 }

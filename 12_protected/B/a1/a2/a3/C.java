@@ -4,7 +4,7 @@ class C extends A {
     public static void main(String[] args) {
         // correct this will compile because,
         // class C is in the same package,
-        // so, it can access protected members as well
+        // so, it can be accessible protected members
         
         A x = new A();
         // C x = new C(); // it is also possible

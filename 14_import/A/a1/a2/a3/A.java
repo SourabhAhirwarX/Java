@@ -6,7 +6,6 @@ import b1.b2.D;
 
 class A {
     public static void main(String[] args) {
-        // access through instantiation
         B x = new B();
         C y = new C();
         D z = new D();

@@ -9,9 +9,5 @@ class A {
         // static method creates class context..
 
         // you can access a class level (static member) from within a class context
-    }
-
-    void pro() {
-        System.out.println(x);
-    }
+    } 
 }

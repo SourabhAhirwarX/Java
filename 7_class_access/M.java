@@ -1,5 +1,5 @@
-// Composition (Strong part of relation) 
-// Association(usage based(Weak Part of) relation)
+// part of relation -> Composition
+// usage based(Weak Part of) relation -> Association
 
 // HAS-A relationship
 

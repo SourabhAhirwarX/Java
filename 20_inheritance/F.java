@@ -1,6 +1,6 @@
 // Heirarchical Inheritance
 // it is allowed to create multiple child classes
-// one class can have multiple child classes
+// one class can multiple child classes
 
 class A {
 

@@ -1,8 +1,8 @@
 abstract class X {
-    X() {
-        // we cannot create the object or cannot call the constructor,
-        // but, we use it and compiler also provide constructor
-    }
+    // X() {    
+            // cannot create the object or cannot call the constructor,
+            // but, we use it and constructor also provide constructor 
+    // }
 
     abstract void pro();
 }

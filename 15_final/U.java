@@ -16,15 +16,14 @@ class Circle {
         c1.radius = 7;
 
         // c1.pi = 90;  // we don't want to modify the value of pi so, marked it as final
-        // it is generally said that if something is marked as final mark it as static also
 
-        System.out.println(c1.pi);     // not a good practice
+        System.out.println(c1.pi); // not a good practice
         System.out.println(c2.pi);     // compiler thinks it as Circle.pi
         System.out.println(c3.pi);     // compiler Circle.pi
         System.out.println(c4.pi);     // compiler Circle.pi
 
-        System.out.println(Circle.pi); // correct way of accessing
+        System.out.println(Circle.pi);   // write way of accessing
 
-        System.out.println(pi);        // we are able to call it directly because we are in same class
+        System.out.println(pi);     // we are able to call it directly because we are in same class
     }
 }

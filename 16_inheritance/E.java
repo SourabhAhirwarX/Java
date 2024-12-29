@@ -18,18 +18,14 @@ class Car {
 
 }
 
-class Rohit {
+class V {
     public static void main(String[] args) {
         BDog x = new BDog();
 
-        // instanceof is an operator which check whether it comes in its inheritance tree or not return boolean
         System.out.println(x instanceof BDog);
         System.out.println(x instanceof Dog);
         System.out.println(x instanceof Animal);
         System.out.println(x instanceof Object);
-        // wrapper class
-        Integer i = 23;
-        System.out.println(i instanceof Number);
         
         // System.out.println(x instanceof Cat);      // error: incompatible types: BDog cannot be converted to Cat       
         

@@ -4,9 +4,8 @@
 // import java.lang.*;
 
 import java.util.Date;
-// import java.sql.Date;
 
-public class D {
+class D {
     public static void main(String[] args) {
         Date date = new Date();
         System.out.println(date);

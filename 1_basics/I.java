@@ -1,12 +1,10 @@
-// allowded statements, inside a class...
-
 class X {
     // variable declaration is an allowed statement inside a class
-    String e;
+    int e;
     int f = 9;
-    float r;
+    int r;
 
-    // variables type declaration cum initialization is a valid statement
+    // variable type declaration cum initialization is a valid statement
     int s = 45;
 
     // apart from variable creation statements, method definition and constructor definition statements, 
@@ -15,18 +13,12 @@ class X {
     // r = 90;                       Error!
     // System.out.println("hello");  Error!
 
-
     int add(int a, int b) {
-        // variable declaration is an allowed statement inside a method
+        // variable declaration, instantiation, intialization is an allowed statement inside a method & constructor
         int sum = 0;
-
         sum = a + b;
-        System.out.println(sum);
-
-        return sum;
-    }
-
-    public static void main(String[] args) {
         
+        System.out.println(sum);
+        return sum;
     }
 }

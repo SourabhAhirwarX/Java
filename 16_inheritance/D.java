@@ -11,7 +11,7 @@ class A extends X {
     
     public static void main(String[] args) {
         A x = new A();
-        x.info();       // whose return type is void cannot be called in sop
+        x.info();       // whose return type is void cannot be called sop
         x.pro();
 
         // System.out.println(x.info());    // error: 'void' type not allowed here

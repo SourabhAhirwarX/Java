@@ -5,6 +5,6 @@ class C extends A {
         C x = new C();
         x.pro();
         // x.info();   // cannot find symbol
-        x.info1();     // accessing public member
+        x.info1();     // accessing private member
     }
 }

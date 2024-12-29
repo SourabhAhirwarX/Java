@@ -7,6 +7,6 @@ class E extends A {
         E x = new E();
         x.pro();
         // x.info();   // cannot find symbol
-        x.info1();     // accessing public member
+        x.info1();     // accessing private member
     }
 }

@@ -1,12 +1,8 @@
-// method marked as final can not be modified(redefine), i.e. these methods can not be overrided
-
 class X {
-    // overriden method
     void pro1() {
 
     }
 
-    // overriden method
     final void pro2() {
 
     }

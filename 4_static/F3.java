@@ -11,13 +11,7 @@ class Circle {
 
         calcArea(c1);
         calcArea(c2);
-        // c2.pro();
     }
-
-    // static void pro() {
-    //     radius = 24;
-    //     pi = 34;
-    // }
 
     static void calcArea(Circle x) {
         System.out.println(pi * x.radius * x.radius);

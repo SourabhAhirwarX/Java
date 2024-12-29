@@ -7,7 +7,7 @@ class D {
     }  
 }
 
-//protected   // error: t has protected access in A
-//public      // easily accessible
-//default     // error: t is not public in A; cannot be accessed from outside package
-//private     // error: t has private access in A
+//protected// error: t has protected access in A
+//public// easily accessible
+//default// error: t is not public in A; cannot be accessed from outside package
+//private// error: t has private access in A

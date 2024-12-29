@@ -1,12 +1,10 @@
-// here, for every new object the value of pi will always be initializes...
-// for same job we are reinitializing it multiple times.
-
 class Circle {
-    int radius;
+    int radius;         // primitive type, instance level variable
     float pi = 3.14f;
 
     public static void main(String[] args) {
         Circle c1 = new Circle();
+        System.out.println(c1.radius);
         c1.radius = 34;
 
         Circle c2 = new Circle();
@@ -20,18 +18,16 @@ class Circle {
 }
 
 
-/*
+    /*
     class A {
         int a = 90;            // intstance level variable
         static int c = 435;    // class level variable
-        
-        A() {
-            float x = 4353f;    // local level variable
-        }
     
         void pro() {
             int b = 445;       // local level variable
         }
-        
+        A() {
+            float x = 4353f;    // local level variable
+        }
     }
-*/
+    */

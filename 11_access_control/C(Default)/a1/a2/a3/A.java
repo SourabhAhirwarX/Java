@@ -26,8 +26,8 @@ public class A {
     public static void main(String[] args) {
         A x = new A();
         x.pro();       // calling public member
-        x.info();      // calling private member
-        x.info1();     // accessing public private member
-        x.self();      // accessing default member
+        // x.info();   // calling private member
+        x.info1();     // accessing private member
+        x.self();      // accessing Default member
     }
 }

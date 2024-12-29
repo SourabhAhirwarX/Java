@@ -1,6 +1,6 @@
 // declared methods in an interface are implicitly abstract...
 // subclass is responsible for implementation 
-// if subclass fails to implement such abstract methods... then the compilation will fail
+// if subclass fails to implement such abstract methods... then the complilation will fail
 
 interface X {
     void pro();

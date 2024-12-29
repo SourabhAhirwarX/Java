@@ -20,7 +20,7 @@ class X {
     public static void main(String[] args) {
         A x = new C();
 
-        //x.proC();   // doesn't have proC, proB method in C, B or not inherited from the parent
+        //x.proC();   // doesn't have proC method in B or not inherited from the parent
         //x.proB();
         x.proA();
         System.out.println(x.toString());

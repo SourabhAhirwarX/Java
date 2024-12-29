@@ -4,7 +4,7 @@ final class X {
 
 class A /*extends X*/ {
     public static void main(String[] args) {
-        X a = new X();  // access through instantiation
+        X a = new X();
 
         System.out.println(a.y);
     }

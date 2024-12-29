@@ -7,6 +7,6 @@ class X {
 class A {
     public static void main(String[] args) {
         X a = new X();
-        a.pro();    // we can still access the final method
+        a.pro();
     }
 }

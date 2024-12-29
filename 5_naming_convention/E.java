@@ -1,4 +1,3 @@
-// they should follow the snake case notation
 // constant variable should be in upper case
 // use _ as connecting varaiables in case of multiple words
 

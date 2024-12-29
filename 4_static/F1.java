@@ -10,7 +10,7 @@ class Circle {
         c2.radius = 5;
 
         c1.calcArea();
-        c2.calcArea();
+        // c2.calcArea();
     }
 
     static void calcArea() {

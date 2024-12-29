@@ -6,7 +6,7 @@ interface X {
 }
 
 class A implements X {
-    public void pro() {
+    public void pro() {     
 
     }
 }

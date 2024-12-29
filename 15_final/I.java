@@ -2,7 +2,6 @@ class Y {
 
 }
 
-// final class can inherit another class
 final class X extends Y {
 
 }

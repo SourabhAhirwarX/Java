@@ -1,4 +1,4 @@
-// class is the top level component, All other code must be written inside the class
+// class is a top level component, All other code must be written inside the class
 
 int x = 90;
 

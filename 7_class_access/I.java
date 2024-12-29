@@ -2,7 +2,6 @@
 // A is now child class of class B
 
 // we are creating constructor of class A...
-// their is no direct relation between the two classes
 
 class A {
     public static void main(String[] args) {

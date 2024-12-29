@@ -6,7 +6,7 @@ class A {
         Date date = new Date(81179679769L);    // i want to use java.sql.Date
         System.out.println(date);
 
-        Date dt = new Date();                       // i want to use java.util.Date
+        Date dt = new Date();   // i want to use java.util.Date
         System.out.println(dt);
     }
 }

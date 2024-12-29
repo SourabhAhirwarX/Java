@@ -5,8 +5,7 @@ import a1.a2.a3.A;
 
 class D extends A {
     public static void main(String[] args) {
-        // Access through instantiation
-        // A x = new A();           // correct directly creating Object of parent class
+        // A x = new A();           // correct creating Object of parent class
         // System.out.println(x.t); // wrong! but calling its protected member gives error
         
         D x = new D();              // it will compiled successfully! because,

@@ -12,9 +12,9 @@ class Circle {
         c1.calcArea();
         c2.calcArea();
 
-        // definition of a circle is a string constant
-        // definition will not change if you call the method on difference circle object with diff. dius
-        // better you declare such method static
+        //definition of a circle is a string constant
+        //definition will not change if you call the method on difference circle object with diff. dius
+        //better you declare such method static
         defineCircle();
     }
 

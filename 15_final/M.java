@@ -6,7 +6,7 @@ class X {
 
 class A {
     // just a coincidence of same names method, 
-    // there is no role of class X method, as we are not inheriting the X class
+    // there is no role of class X method
     // we are not modifying the methods we just creates another(same name) method
     void pro() {
         System.out.println("Hello Modi...");
@@ -15,7 +15,7 @@ class A {
     public static void main(String[] args) {
         A x = new A();
         x.pro();
-        X a = new X();  // access through instantiation
+        X a = new X();
         a.pro();
     }
 }

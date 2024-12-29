@@ -1,5 +1,5 @@
-// variables declared inside an interface are implicitly final
-// initialize such variables at the time of declaration.
+// variables declared inside an interface are implicitly public, final
+// initialize such variables at the time of decleration.
 
 interface A {
     int x;

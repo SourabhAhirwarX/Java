@@ -1,6 +1,3 @@
-// Access through instantiation
-// but we can't access it members and methods directly in another class
-
 class A {
     public static void main(String[] args) {
         B x = new B();

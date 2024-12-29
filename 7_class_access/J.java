@@ -1,5 +1,5 @@
-// Association(Weak part of relation)
-// Student HAS-A pen
+// Association
+// Student HAs-A pen
 
 class Student {
     public static void main(String[] args) {
@@ -12,6 +12,5 @@ class Pen {
     void write() {
         /////
         /////
-        System.out.println("i can write anythink u want");
     }
 }

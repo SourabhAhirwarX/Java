@@ -2,11 +2,9 @@ abstract class A {
     void pro() {
 
     }
-
     void abc() {
         
     }
-    
     void xyz() {
         
     }

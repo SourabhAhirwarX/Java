@@ -1,6 +1,6 @@
 class A {
     public static void main(String[] args) {
-        B x = new B();    // variable instantiation
+        B x = new B();
     }
 }
 

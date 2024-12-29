@@ -8,5 +8,5 @@ class A {
     }
 }
 
-//  C:\Users\soura\OneDrive\Desktop\JAVA\Programs>javac A.java
-//  C:\Users\soura\OneDrive\Desktop\JAVA\Programs>java -verbose A
+// C:\Users\soura\OneDrive\Desktop\JAVA\Programs>javac A.java
+// C:\Users\soura\OneDrive\Desktop\JAVA\Programs>java -verbose A

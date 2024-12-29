@@ -5,6 +5,6 @@ class X {
     }
 }
 
-// class Y {
-//     int t = 455;
-// }
+class Y {
+    int t = 455;
+}

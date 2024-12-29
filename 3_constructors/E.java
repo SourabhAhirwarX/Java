@@ -1,5 +1,4 @@
 class Student {
-    // consist of some properties
     String name;
     int age;
 

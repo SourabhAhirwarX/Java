@@ -4,6 +4,7 @@ class A {
         int y;
 
         System.out.println(x);
+
         // System.out.println(y);   //error: variable y might not have been initialized
     }
 }

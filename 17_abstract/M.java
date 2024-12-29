@@ -7,5 +7,3 @@ abstract class A {
 
     abstract void xyz();
 }
-
-// some methods defined and some methods declared inside an abstract class: legal

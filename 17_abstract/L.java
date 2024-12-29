@@ -4,5 +4,4 @@ abstract class A {
     abstract void xyz();
 }
 
-// all methods declared inside an abstract class: legal
-// declaring methods inside abstract class is applicable(possible)
+// some methods defined and some methods declared inside an abstract class: legal

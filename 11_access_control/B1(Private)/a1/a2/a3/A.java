@@ -15,5 +15,3 @@ public class A {
         x.info();   // calling private member
     }
 }
-
-// private members were only accessible inside the same class

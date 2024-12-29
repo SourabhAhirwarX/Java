@@ -1,9 +1,5 @@
 final class X {
     int y = 96;
-
-    void pro() {
-        System.out.println(y);
-    }
 }
 
 class A /*extends X*/ {
@@ -11,9 +7,7 @@ class A /*extends X*/ {
         X a = new X();
         System.out.println(a.y);
 
-        a.y = 45;
+        a.y = 45; 
         System.out.println(a.y);
-
-        a.pro();
     }
 }

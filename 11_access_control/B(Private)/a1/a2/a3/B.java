@@ -5,6 +5,5 @@ class B {
         A x = new A();
         x.pro();
         x.info();   // error : info() has private access in A
-        // as private fields are only accessible in its class only
     }
 }
